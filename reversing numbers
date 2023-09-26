@@ -1,0 +1,14 @@
+public class demo {
+    public static void main(String args[]) {
+        int f = 123;
+        int lastNum = f % 10;
+        f = f / 10;
+        int midNum = f % 10;
+        f = f / 10;
+        int firstNum = f % 10;
+
+        System.out.println("the reversed number is\t: "+lastNum+""+midNum+""+firstNum);
+    }
+}
+
+
